@@ -31,33 +31,40 @@ body{
     align-items: center;
     background-color: #ffe924 ;
     padding: 1rem;
+    background-image: url(./assets/THT_M681_05.svg);
     background-repeat: no-repeat;
     background-size: 800px;
     background-position: center;
-    animation: images  10s  infinite ease-in-out ;
+    animation: images  15s infinite ;
 }
 
 @keyframes images{
 
-    0%{
+
+    20%{
         background-image: url(./assets/THT_M681_06.svg);
     }
 
-    25%{
+    40%{
         background-image: url(./assets/THT_M681_09.svg);
     }
 
-    50%{
+    60%{
         background-image: url(./assets/THT_M681_08.svg);
     }
 
-    75%{
+    80%{
         background-image: url(./assets/THT_M681_04.svg);
     }
 
     100%{
         background-image: url(./assets/THT_M681_05.svg);
     }
+
+
+
+    
+    
 }
 
 
