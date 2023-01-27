@@ -61,10 +61,6 @@ body{
         background-image: url(./assets/THT_M681_05.svg);
     }
 
-
-
-    
-    
 }
 
 
@@ -332,6 +328,9 @@ header h1::after{
         width: 20px;
       }
 
+      .form{
+        padding: 3rem 0;
+      }
     
 
 }
