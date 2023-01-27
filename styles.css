@@ -31,40 +31,33 @@ body{
     align-items: center;
     background-color: #ffe924 ;
     padding: 1rem;
-    background-image: url(./assets/THT_M681_05.svg);
     background-repeat: no-repeat;
     background-size: 800px;
     background-position: center;
-    animation: images  infinite  15s;
+    animation: images  10s  infinite ease-in-out ;
 }
 
 @keyframes images{
 
-
-    20%{
+    0%{
         background-image: url(./assets/THT_M681_06.svg);
     }
 
-    40%{
+    25%{
         background-image: url(./assets/THT_M681_09.svg);
     }
 
-    60%{
+    50%{
         background-image: url(./assets/THT_M681_08.svg);
     }
 
-    80%{
+    75%{
         background-image: url(./assets/THT_M681_04.svg);
     }
 
     100%{
         background-image: url(./assets/THT_M681_05.svg);
     }
-
-
-
-    
-    
 }
 
 
@@ -87,6 +80,7 @@ header{
     margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .login-button{
@@ -324,8 +318,13 @@ header h1::after{
 
     .gender-title::after{
         display: none;
-       
           
-       }
+      }
+    
+      .login-button{
+        width: 20px;
+      }
+
+    
 
 }
